@@ -4,7 +4,7 @@ This repository provides tools and code for collecting, cleaning, and analyzing 
 
 ## Features
 
-- **Automated Web Scraping**: Uses `requests`, `Selenium`, and `BeautifulSoup` to collect data even from dynamic web pages requiring scrolling or Javascript rendering.
+- **Automated Web Scraping**: Uses `requests`, `Selenium`, and `BeautifulSoup` to collect data even from dynamic web pages requiring scrolling or JavaScript rendering.
 - **Comprehensive Data Fields**: Extracts wine producer, name, vintage, sweetness, color, volume, country, region, and price for each wine card.
 - **Data Analysis-Ready**: Stores data in a pandas DataFrame and exports it as a CSV for further cleaning and analysis.
 
@@ -58,7 +58,6 @@ See [`wine_market_analysis.ipynb`](wine_market_analysis.ipynb) for the full code
 
 ```
 wine_market_analysis.ipynb   # Main notebook with scraping & analysis workflow
-wine_data.csv                # Output dataset (not tracked by default)
 README.md                    # This file
 ```
 
@@ -118,5 +117,8 @@ soup = BeautifulSoup(driver.page_source, 'html.parser')
 
 - `wine_data.csv`: Cleaned dataset for analysis.
 
-
+## Collaborators
+- Gayane Yemishyan — https://github.com/GayaneYemishyan
+- Monika Yepremyan — https://github.com/Monika303
+  
 **For detailed workflow and explanations, see [wine_market_analysis.ipynb](wine_market_analysis.ipynb).**
